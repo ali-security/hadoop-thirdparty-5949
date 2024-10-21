@@ -26,6 +26,7 @@
     <version>1.2.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
+  <version>1.2.0+sp1</version>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>hadoop-shaded-protobuf_3_21</artifactId>
   <name>Apache Hadoop shaded Protobuf</name>
@@ -38,7 +39,7 @@
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java</artifactId>
-      <version>${protobuf_3.version}</version>
+      <version>3.21.12+sp2</version>
     </dependency>
   </dependencies>
 
